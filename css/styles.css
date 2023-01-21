@@ -1,0 +1,231 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --headings-herobackground-color: #2e2f42;
+  --body-text-color: #434455;
+  --background-color: #ffffff;
+  --light-background-color: #f4f4fd;
+  --accent-color: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--headings-herobackground-color);
+  background-color: var(--background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.name-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+
+  /* display: flex;
+  align-items: center; */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: var(--primary-brand-color);
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.name-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+
+  /* display: flex;
+  align-items: center; */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--headings-herobackground-color);
+}
+
+.menu-link.current {
+  color: var(--primary-brand-color);
+}
+.menu-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--headings-herobackground-color);
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active,
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-mail:active,
+.contact-number:hover,
+.contact-number:focus,
+.contact-number:active {
+  color: var(--pressed-state-color);
+}
+
+.contact-mail,
+.contact-number {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--body-text-color);
+}
+
+.main-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  color: var(--background-color);
+  background-color: var(--primary-brand-color);
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--pressed-state-color);
+}
+
+.main-heading {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--background-color);
+}
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--headings-herobackground-color);
+}
+
+.section-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--body-text-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  /* text-align: center;
+  letter-spacing: 0.02em; */
+  text-transform: capitalize;
+
+  color: var(--headings-herobackground-color);
+}
+
+.section-team {
+  background-color: var(--light-background-color);
+}
+
+.footer {
+  background-color: var(--headings-herobackground-color);
+}
+
+.name-web-footer {
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  /* display: flex;
+  align-items: center; */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-brand-color);
+}
+
+.name-studio-footer {
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  /* display: flex;
+  align-items: center; */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--light-background-color);
+}
+
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-color);
+}
+
+/* portfolio.html */
+
+.filter-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background-color: var(--light-background-color);
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--background-color);
+  background-color: var(--pressed-state-color);
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px; */
+}
+
+.portfolio-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: var(--headings-herobackground-color);
+}
