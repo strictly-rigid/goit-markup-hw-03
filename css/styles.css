@@ -28,10 +28,15 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+p {
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+li {
+  padding-left: 0;
 }
 
 /* ================CONTAINERS================ */
@@ -233,6 +238,8 @@ address {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list-advantages {
@@ -244,7 +251,7 @@ address {
 }
 
 .list-advantages .advantages-item + .advantages-item {
-  margin-left: 40px;
+  margin-left: 24px;
 }
 
 .advantages-item .section-text {
@@ -291,6 +298,8 @@ address {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .doing-list {
@@ -307,6 +316,8 @@ address {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section-team {
@@ -444,6 +455,8 @@ address {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .portfolio-items {
